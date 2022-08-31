@@ -1,0 +1,13 @@
+* {
+	font-family: 'Lobster', cursive;
+	font-weight: 100;
+	font-size: 30px;
+}
+.box1, .box2 {
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	background-color: yellowgreen;
+	box-sizing: content-box;
+	outline: 10px solid blue;
+}

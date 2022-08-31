@@ -1,0 +1,82 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+.form {
+	font-size: 15px;
+	font-family: Georgia;
+	background-color: #000;
+	width: 100vw;
+	height: 10vh;
+	color: white;
+}
+
+.form__h2 {
+	font-size: 5em;
+}
+.stale {
+	font-size: 2em;
+	background-color: #15B464;
+	width: 100vw;
+	height: 50vh;
+}
+.stale__h3 {
+	font-family: 'BhuTuka Expanded One', cursive;
+	font-weight:
+}
+
+#baki {
+	font-family: 'lobster', cursive;
+	font-weight: 100;
+	font-size: 30px;
+}
+
+/* contrary to the elements in block the "inline" elements can't use width or height*/
+
+h2 {
+	display: inline;
+}
+
+h4 {
+	background-color: red;
+	display: inline-block;
+	padding: 10px /*top*/20px/*right*/ 30px/*bottom*/ 40px/*left*/;
+}
+		
+h5 {
+	font-size: 2em;
+	display: inline-block;
+	background-color: blueviolet;
+	padding: 100px;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 20px 10px;
+	border-radius: 2em;
+	border: 4px solid blue;
+	transform: rotate(-45deg);
+	box-shadow: 2px 4px 15px purple;
+	}
+#camote {
+	font-size: 2em;
+	display: inline-block;
+	background-color: blueviolet;
+	padding: 100px;
+	box-sizing: border-box;
+	text-align: center;
+	margin: 20px 10px;
+	border-radius: 2em;
+	border: 4px dashed blue;
+	transform: rotate(45deg);
+}
+h6 {
+	font-size: 2em;
+	display: block;
+	background-color: goldenrod;
+	content: ; /*Space used by the text*/
+	padding: 100px; /*Space between text and border*/
+	border: 5px green;
+	box-shadow: 2px 4px 15px 0 #000;
+	text-shadow: 2px 2px 7px #fff;
+	margin: 10px 20px; /*border out of the border*/
+	text-align: center;
+}

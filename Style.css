@@ -1,0 +1,30 @@
+#color-purple {
+	color: purple;
+}
+* {
+	color: black;
+}
+[stale="yes"] {
+	color: red;
+}
+h3 p {
+	color: blue;
+}
+h4 b {
+	color: gold;
+}
+.title-h2 p {
+	color: green;
+}
+.title-h2 p:hover {
+	color: violet;
+}
+.title-h5 p {
+	color: grey !important	
+}
+.form__input:first-child {
+	color: red;
+}
+.form__input--active {
+	color: green;
+}
